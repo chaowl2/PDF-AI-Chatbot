@@ -9,8 +9,8 @@ The Langchain Streamlit QnA Chatbot is a Python application that allows you to c
 The application follows these steps to provide responses to the user's questions:
 1. **PDF Loading:** The app reads a PDF document and extracts the text content.
 2. **Text Chunking:** The extracted text is divided into smaller chunks that can be processed effectively.
-3. **Embedding Model:** The application utilizes a embedding model to generate vector representations (embeddings) of the text chunks.
-4. **Similarity Matching:** When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
+3. **Embedding Model:** The application utilizes a embedding model to generate embeddings (vector representations) of the text chunks.
+4. **Similarity Matching:** When the user asks a question, the app compares it with the text chunks and identifies the most semantically similar ones.
 5. **Response Generation:** The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
 # Dependencies and Installation
