@@ -14,7 +14,7 @@ from langchain.vectorstores import FAISS
 
 # Azure OpenAI API Details
 config = configparser.RawConfigParser() 
-config.read('/Users/H544066/Documents/Langchain Project/AeroTempOpenAIKey.cfg')
+config.read('you_file_path_to_pdfs')
 cred = dict(config.items('Azure Deployment'))
 apiKey = cred['apikey']
 base_url = cred['base_url']
